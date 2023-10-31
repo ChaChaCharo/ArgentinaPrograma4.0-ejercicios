@@ -1,0 +1,66 @@
+/*ENCABEZADO*/
+
+.logoColor {
+    display: inline;
+    max-width: 6%;
+}
+
+h1.encabezado {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navLink {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/*HERO*/
+img.hero {
+    max-width: 100%;
+}
+
+
+/*principal, formulario*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.botonEnviar {
+    background-color: slateblue;
+    /*background: rgb(149,45,0);
+    background: linear-gradient(90deg, rgba(149,45,0,1) 0%, rgba(255,113,55,1) 35%, rgba(255,236,0,1) 100%);*/
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.botonEnviar:hover {
+    transition: .5s;
+    background-color: black;
+}
+
+
+/**/
+
+footer {
+    background-color: black;
+    color: cornsilk;
+    margin-top: 25px;
+    padding: 30px;
+    text-align: center;
+}
